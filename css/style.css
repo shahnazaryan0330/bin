@@ -1,0 +1,96 @@
+@font-face {
+   font-family: 'plex';
+   src: url(./IBMPlexSans-Medium.ttf);
+}
+
+body {
+   margin: 0;
+   background-color: white;
+   font-family: 'plex' !important;
+}
+
+.main {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.amount{
+   width: auto !important;
+}
+
+label {
+   width: 75px;
+   text-align: center;
+   padding: 5px;
+}
+
+input {
+   background-color: #EAECEF;
+   height: 30px;
+   padding: 4px 10px;
+}
+
+input,
+label,
+button {
+   display: block;
+   font-family: 'plex' !important;
+   font-size: 16px;
+   border-radius: 4px;
+   border: none;
+   outline: none;
+}
+
+input {
+   margin: 10px 0;
+   width: 120px;
+}
+
+.buySell {
+   display: flex;
+}
+
+.purchase {
+   color: white;
+   background-color: #0ECB81;
+}
+
+#purchaseInput {
+   margin-right: 10px;
+}
+
+.sell {
+   color: white;
+   background-color: rgb(246, 70, 93);
+   margin-left: auto;
+}
+
+#btn {
+   background-color: #FCD535;
+   color: black;
+   text-align: center;
+   padding: 9px 13px;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+.result {
+   margin-top: 30px;
+   font-family: 'plex' !important;
+   color: rgb(112, 122, 138);
+   font-size: 40px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+input[type=number] {
+   -moz-appearance: textfield;
+}
